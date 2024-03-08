@@ -84,7 +84,7 @@ ul a{
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url(/Car-rental/Assets/earth.png);
+    background-image: url(/Assets/earth.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

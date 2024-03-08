@@ -90,7 +90,26 @@ ul a{
     grid-template-rows: 5rem;
   
 }
+.about-page{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.about-page h2{
+    padding: 2rem;
+    font-size: 2rem;
+}
 
+.about-text{
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.about-text p{
+    margin-bottom: 1rem;
+    color: grey;
+}
 .footer, 
 .footer-content, 
 .banner-frame,

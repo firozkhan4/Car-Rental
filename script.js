@@ -11,12 +11,12 @@ function Car(price,model,mark,year,doors,ac,transmission,fuel,img){
     this.img = img
 }
 
-let audi_img = '/Car-rental/Assets/audi-car.jpg'
-let vm_car_img = '/Car-rental/Assets/vw-car.jpg'
-let bmw_img = '/Car-rental/Assets/bmw-car.jpg'
-let mer_img = '/Car-rental/Assets/mer-car.jpg'
-let toyota_img = '/Car-rental/Assets/toyota-car.jpg'
-let vm_car2_img = '/Car-rental/Assets/vw-car2.jpg'
+let audi_img = '/Assets/audi-car.jpg'
+let vm_car_img = '/Assets/vw-car.jpg'
+let bmw_img = '/Assets/bmw-car.jpg'
+let mer_img = '/Assets/mer-car.jpg'
+let toyota_img = '/Assets/toyota-car.jpg'
+let vm_car2_img = '/Assets/vw-car2.jpg'
 
 const audi = new Car(400,"Audi","A1",2012,"4/5","Yes","Manual","Gasoline", audi_img)
 const vw_1 = new Car(300,"Golf 6","Volkswagen",2008,"4/5","Yes","Manual","Diesel", vm_car_img)

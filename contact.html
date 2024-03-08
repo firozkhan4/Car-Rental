@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Car-rental/contact.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
   <body>
     <div class="nav">
       <div class="nav-inner">
         <a href="index.html">
-          <img src="/Car-rental/Assets/car-log.png" alt="" />
+          <img src="Assets/car-log.png" alt="" />
         </a>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -19,8 +19,12 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="account-btn">
-          <button class="sign-in">Singn In</button>
-          <button class="register">Register</button>
+          <button class="sign-in" onclick="window.open('sign-up.html')">
+            Sign In
+          </button>
+          <button class="register" onclick="window.open('sign-up.html')">
+            Register
+          </button>
         </div>
       </div>
     </div>
@@ -36,22 +40,19 @@
         <ul>
           <li>
             <a href=""
-              ><img src="/Car-rental/Assets/phone-solid.svg" alt="" />(123)
-              456-7869
+              ><img src="/Assets/phone-solid.svg" alt="" />(123) 456-7869
             </a>
           </li>
           <li>
             <a href=""
-              ><img src="/Car-rental/Assets/envelope-regular.svg" alt="" />
+              ><img src="/Assets/envelope-regular.svg" alt="" />
               car.rental@gamil.com</a
             >
           </li>
           <li>
             <a href=""
-              ><img
-                src="/Car-rental/Assets/location-dot-solid.svg"
-                alt=""
-              />Kota, Rajasthan</a
+              ><img src="/Assets/location-dot-solid.svg" alt="" />Kota,
+              Rajasthan</a
             >
           </li>
         </ul>
@@ -87,18 +88,14 @@
     <!-- ====================================================Banner Strip============================================= -->
     <div class="banner-strip">
       <iframe
-        src="/Car-rental/compnents/banner.html"
+        src="compnents/banner.html"
         frameborder="0"
         class="banner-frame"
       ></iframe>
     </div>
     <!-- ==========================================================Footer Page================================================= -->
     <div class="footer">
-      <iframe
-        src="/Car-rental/compnents/footer.html"
-        frameborder="0"
-        class="footer-frame"
-      >
+      <iframe src="compnents/footer.html" frameborder="0" class="footer-frame">
       </iframe>
     </div>
   </body>
