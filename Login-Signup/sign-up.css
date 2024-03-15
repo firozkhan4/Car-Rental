@@ -6,9 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.div {
-  border: 1px red solid;
-}
+
 
 body{
   width: 100%;
@@ -24,8 +22,9 @@ body img{
   justify-self: end;
   align-self: self-end;
 }
+
 .container {
-  width: 60%;
+  width: 50%;
   height: 60%;
   justify-self: center;
   margin-top: 4rem;
@@ -34,6 +33,7 @@ body img{
   align-items: center;
   background-color: whitesmoke;
   border-radius: 1rem;
+  box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.215);
 }
 .title{
   margin-top: 3rem;
