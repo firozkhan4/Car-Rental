@@ -23,6 +23,7 @@ body img{
   align-self: self-end;
 }
 
+
 .container {
   width: 50%;
   height: 60%;
@@ -112,4 +113,15 @@ form input[type=submit]{
 
 .sign-up{
   margin-top: 3.5rem;
+}
+
+@media (max-width: 480px) {
+
+  .hero-img img{
+    width: 1%;
+  }
+
+  .hero-img{
+    width: 1%;
+  }
 }
